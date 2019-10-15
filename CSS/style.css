@@ -1,4 +1,4 @@
-p {
+.caption {
     width: 250px;
     position: absolute;
     bottom: 40px;
@@ -9,5 +9,14 @@ p {
     border-radius: 5px;
 }
 img {
-    margin-bottom: 40px
+    margin-bottom: 40px;
+}
+.footer {
+    position: absolute;
+    bottom: 0 !important;
+    text-align: center;
+    background: red;
+    color: white;
+    padding: 10px 0 10px 0;
+    width: 100%
 }
